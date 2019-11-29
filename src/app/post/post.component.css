@@ -1,0 +1,31 @@
+body{
+    background-color: #f6f7fb;
+  }
+  .lbl-header{
+      font-weight: 100;
+      font-size: 11px;
+    }
+    
+    .lbl-content{
+      font-weight: 600;
+      font-size: 12px;
+    }
+    
+    .lbl-content-name{
+      font-size: 14px;
+      text-align: right;
+    }
+    .card{
+      color: #555f6d;
+    }
+    
+    .font-weight-bold {
+      font-weight: 700;
+      font-size: 14px;
+  }
+   /* .row-card{
+      margin: 10px 5px 10px 5px;
+      background-color: #FFF;
+      padding: 10px;
+    }
+  */
