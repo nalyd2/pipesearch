@@ -28,12 +28,12 @@ export class FilterPipe implements PipeTransform {
       }
       return true;
     }
-    const filterArray1 = [
+    const filterArray = [
       d => !d.nombre.toLowerCase().indexOf(nom.toLowerCase()),
       d => !d.region.toLowerCase().indexOf(region.toLowerCase()),
       d => !d.estacion.toLowerCase().indexOf(estacion.toLowerCase()),
     ];
-    value = value.filter(d => filterCombiner(d, filterArray1));
+    value = value.filter(d => filterCombiner(d, filterArray));
     return value;
   }
 }
